@@ -6,17 +6,39 @@
 
 /* Header and navigation*/
 
+#rectangle {
+    width: 263px;
+    height: 67px;
+    float: left;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #151527;
+    border: 1px solid white;
+}
+
+#ellipse {
+    width: 263px;
+    height: 67px;
+    border: 1px solid #151527;
+    border-radius: 15px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
 header {
-    height: 75px;
+    height: 90px;
     background-color: #151527;
 }
 
 #logo {
     text-decoration: none;
     color: #999CA1;
-    float: left;
     letter-spacing: 5px;
     text-transform: uppercase;
+    font-size: 90%;
+    text-align: center;
 }
 
 #nav-menu {
@@ -24,17 +46,27 @@ header {
 }
 
 #nav-menu, #logo {
-    line-height: 75px;
+    line-height: 66px;
 }
 
 #nav-menu > li {
     display: inline-block;
     margin-right: 30px;
-    padding-top: 6px; 
+    padding-top: 12px; 
 }
 
 #nav-menu a {
     text-decoration: none;
     color: #999CA1;
     font-size: 110%;
+}
+
+#nav-menu li:hover {
+    transform: scale(1.2);
+    transition: transform 1s;
+}
+
+.active {
+    transform: scale(1.2);
+    /*want to change the colour of the font for the live page*/
 }

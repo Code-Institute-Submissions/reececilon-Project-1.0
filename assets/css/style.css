@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Header and navigation*/
+
+header {
+    height: 75px;
+    background-color: #151527;
+}
+
+#logo {
+    text-decoration: none;
+    color: #999CA1;
+    float: left;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+#nav-menu {
+    float: right;
+}
+
+#nav-menu, #logo {
+    line-height: 75px;
+}
+
+#nav-menu > li {
+    display: inline-block;
+    margin-right: 30px;
+    padding-top: 6px; 
+}
+
+#nav-menu a {
+    text-decoration: none;
+    color: #999CA1;
+    font-size: 110%;
+}

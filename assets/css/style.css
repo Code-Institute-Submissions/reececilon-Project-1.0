@@ -99,7 +99,14 @@ header {
 }
 
 #reason-1 {
-    width: 150px;
-    height: 250px;
-    background-color: rgba(red, green, blue, alpha);
+    width: 250px;
+    height: 300px;
+    background-color: rgba(72, 81, 98, 0.5);
+    position: relative;
+    top: 250px;
+    left: 200px;
+    border-radius: 15px;
+    color: #999CA1;
+    text-align: center;
+    line-height: 50px;
 }

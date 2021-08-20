@@ -70,6 +70,10 @@ header {
     transition: transform 1s;
 }
 
+#nav-menu li:hover a {
+    color: white;
+}
+
 .active {
     transform: scale(1.2);
     /*want to change the colour of the font for the live page*/

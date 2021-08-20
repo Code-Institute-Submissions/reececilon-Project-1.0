@@ -7,7 +7,7 @@
 }
 
 /* Header and navigation*/
-
+/*bug 2: tried to style logo. couldn't position divs correctly to show border corners. fixed as below*/
 #rectangle {
     width: 263px;
     height: 67px;
@@ -69,7 +69,7 @@ header {
     transform: scale(1.2);
     transition: transform 1s;
 }
-
+/*bug 1: li would not change colour when hovering over them. fixed issue below*/
 #nav-menu li:hover a {
     color: white;
 }
@@ -79,11 +79,27 @@ header {
     /*want to change the colour of the font for the live page*/
 }
 
-/* main image */
+/* main image , why loop up*/
 
 #main-image {
     background: url(../images/main-image-2.jpeg) center center / cover no-repeat fixed;
-    height: 1000px;
+    height: 700px;
     margin: 50px 0;
     background-color: #151527;
+}
+
+#main-image > h2 {
+    font-family: 'PT Serif', serif;
+    font-size: 180%;
+    color: #999CA1;
+    letter-spacing: 5px;
+    text-align: center;
+    position: relative;
+    top: 50px;
+}
+
+#reason-1 {
+    width: 150px;
+    height: 250px;
+    background-color: rgba(red, green, blue, alpha);
 }

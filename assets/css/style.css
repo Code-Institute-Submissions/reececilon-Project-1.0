@@ -103,8 +103,8 @@ header {
     height: 300px;
     background-color: rgba(72, 81, 98, 0.5);
     position: relative;
-    top: 250px;
-    left: 200px;
+    top: 100px;
+    left: 150px;
     border-radius: 15px;
     color: #999CA1;
     text-align: center;
@@ -116,8 +116,34 @@ header {
     height: 300px;
     background-color: rgba(72, 81, 98, 0.5);
     position: absolute;
-    left: 580px;
-    bottom: 250px;
+    left: 450px;
+    bottom: 100px;
+    border-radius: 15px;
+    color: #999CA1;
+    text-align: center;
+    line-height: 50px;
+}
+/*Don't forget to fix the positioning*/
+#reason-3 {
+    width: 250px;
+    height: 300px;
+    background-color: rgba(72, 81, 98, 0.5);
+    position: absolute;
+    bottom: 240px;
+    left: 750px;
+    border-radius: 15px;
+    color: #999CA1;
+    text-align: center;
+    line-height: 50px;
+}
+
+#reason-4 {
+    width: 250px;
+    height: 300px;
+    background-color: rgba(72, 81, 98, 0.5);
+    position: absolute;
+    left: 1050px;
+    bottom: 100px;
     border-radius: 15px;
     color: #999CA1;
     text-align: center;

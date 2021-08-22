@@ -149,3 +149,8 @@ header {
     text-align: center;
     line-height: 50px;
 }
+
+#reason-1 p {
+    font-family: 'PT Sans', sans-serif;
+    line-height: 30px;
+}

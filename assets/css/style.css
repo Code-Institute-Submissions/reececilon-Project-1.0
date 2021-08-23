@@ -97,6 +97,7 @@ header {
     height: 700px;
     margin: 0;
     background-color: #151527;
+    padding-top: 50px;
 }
 
 #main-image > h2 {
@@ -105,17 +106,19 @@ header {
     color: white;
     letter-spacing: 5px;
     text-align: center;
-    position: relative;
-    top: 50px;
+    display: block;
+    padding-bottom: 30px;
 }
+
+/*bug: couldn't properly position reasons. fixed with relative positioning*/
 
 #reason-1 {
     width: 400px;
     height: 150px;
     /*background-color: rgba(72, 81, 98, 0.5);*/
     position: relative;
-    top: 150px;
-    left: 80px;
+    left: 100px;
+    top: 0;
     border-radius: 15px;
     color: white;
     text-align: center;
@@ -126,9 +129,9 @@ header {
     width: 400px;
     height: 150px;
     /*background-color: rgba(72, 81, 98, 0.5);*/
-    position: absolute;
-    left: 400px;
-    bottom: 150px;
+    position: relative;
+    left: 350px;
+    top: 150px;
     border-radius: 15px;
     color: white;
     text-align: center;
@@ -139,9 +142,9 @@ header {
     width: 400px;
     height: 150px;
     /*background-color: rgba(72, 81, 98, 0.5);*/
-    position: absolute;
-    bottom: 400px;
-    left: 700px;
+    position:relative;
+    right: 500px;
+    top: 300px;
     border-radius: 15px;
     color: white;
     text-align: center;
@@ -152,9 +155,9 @@ header {
     width: 400px;
     height: 150px;
     /*background-color: rgba(72, 81, 98, 0.5);*/
-    position: absolute;
+    position: relative;
     left: 1000px;
-    bottom: 150px;
+    top: 200px;
     border-radius: 15px;
     /*color: #999CA1;*/
     color: white;

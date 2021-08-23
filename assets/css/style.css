@@ -237,9 +237,16 @@ footer {
 }
 
 #social-links {
-    padding: 40px;
+    padding-top: 35px;
 }
 
 #social-links li {
     display: inline-block;
+    margin: 0 60px;
+    font-size: 150%;
+}
+
+#social-links a {
+    text-decoration: none;
+    color: white;
 }

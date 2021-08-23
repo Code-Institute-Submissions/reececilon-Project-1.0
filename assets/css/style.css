@@ -232,4 +232,14 @@ div > h3 {
 footer {
     height: 90px;
     background-color: #151527;
+    text-align: center;
+    vertical-align: auto;
+}
+
+#social-links {
+    padding: 40px;
+}
+
+#social-links li {
+    display: inline-block;
 }

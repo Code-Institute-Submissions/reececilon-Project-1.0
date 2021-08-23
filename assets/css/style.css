@@ -180,6 +180,7 @@ div > h3 {
     background-color: white;
     text-align: center;
     padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 #meet-up-space > h2 {
@@ -223,4 +224,12 @@ div > h3 {
     text-align: center;
     position: relative;
     top: 50px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+/*footer section social links*/
+
+footer {
+    height: 90px;
+    background-color: #151527;
 }

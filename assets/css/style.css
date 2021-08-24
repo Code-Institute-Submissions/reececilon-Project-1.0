@@ -324,54 +324,39 @@ footer {
     display:inline-block;
     color:#FFF;
     font-size:2em;
+    border-radius:4px;
     transition: all 0.3s linear;
     vertical-align: top;
 }
 
-.cell-1 {
-    background: url(../images/galaxy.jpeg) center center / cover no-repeat;
+.black {
+    background-color: black;
+    width: 100%;
+	margin: 0px 0px;
+	padding: 0px;
 }
 
-.cell-2 {
-    background: url(../images/meteor-2.jpeg) center center / cover no-repeat;
+.cell {
+    background-color: black;
+	padding: 10px 10px 10px 10px;
+	margin: 0;
+	width: 300px;
+	height: 300px;
+    margin: 0;
+    display: inline-block;
 }
 
-.cell-3 {
-    background: url(../images/moon-1.jpeg) center center / cover no-repeat;
+img {
+    width: 100%;
+	height: 100%;
 }
 
-.cell-4 {
-    background: url(../images/nebula-1.jpeg) center center / cover no-repeat;
+img:hover {
+    transform: scale(1.2);
+    transition: 1s;
 }
-
-.cell-5 {
-    background: url(../images/moon-2.jpeg) center center / cover no-repeat;
-}
-
-.cell-6 {
-    background: url(../images/nebula-2.jpeg) center center / cover no-repeat;
-}
-
-.cell-7 {
-    background: url(../images/moon-3.jpeg) center center / cover no-repeat;
-}
-
-.cell-8 {
-    background: url(../images/nebula-3.jpeg) center center / cover no-repeat;
-}
-
-.cell-9 {
-    background: url(../images/starry.jpeg) center center / cover no-repeat;
-}
-
-.cell-10 {
-    background: url(../images/stars-1.jpeg) center center / cover no-repeat;
-}
-
-.cell-11 {
-    background: url(../images/stars-2.jpeg) center center / cover no-repeat;
-}
-
-.cell-12 {
-    background: url(../images/sun-1.jpeg) center center / cover no-repeat;
+/*Struggled to make the horizontal axis of some images scale more*/
+.moon:hover {
+    transform:scaleX(1.4);
+    transition: 1s;
 }

@@ -362,3 +362,12 @@ img:hover {
 }
 
 /*Sign up section*/
+
+ /*Background image*/
+ #cover-image {
+     height: 700px;
+     background: url(../images/cover-image.jpeg) center center / cover no-repeat;
+     background-size: 100%;
+ }
+
+ 

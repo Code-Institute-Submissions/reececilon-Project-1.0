@@ -169,19 +169,20 @@ h2 > span {
 
 .block {
     display: inline-block;
+    margin: 50px;
 }
 
 #reasons-space {
-    width: 900px;
-    height: 600px;
+    width: 100%px;
+    height: 100%;
+    text-align: center;
 }
 
 #reason-1 {
     width: 400px;
-    height: 150px;
+    height: 200px;
     /*background-color: rgba(72, 81, 98, 0.5);*/
     position: relative;
-    border-radius: 15px;
     color: white;
     text-align: center;
     line-height: 50px;
@@ -189,11 +190,10 @@ h2 > span {
 
 #reason-2 {
     width: 400px;
-    height: 150px;
+    height: 200px;
     /*background-color: rgba(72, 81, 98, 0.5);*/
     position: relative;
     top: 30px;
-    border-radius: 15px;
     color: white;
     text-align: center;
     line-height: 50px;
@@ -201,10 +201,9 @@ h2 > span {
 /*Don't forget to fix the positioning*/
 #reason-3 {
     width: 400px;
-    height: 150px;
+    height: 200px;
     /*background-color: rgba(72, 81, 98, 0.5);*/
     position:relative;
-    border-radius: 15px;
     color: white;
     text-align: center;
     line-height: 50px;
@@ -212,11 +211,10 @@ h2 > span {
 
 #reason-4 {
     width: 400px;
-    height: 150px;
+    height: 200px;
     /*background-color: rgba(72, 81, 98, 0.5);*/
     position: relative;
-    bottom: 10px;
-    border-radius: 15px;
+    bottom: 33px;
     /*color: #999CA1;*/
     color: white;
     text-align: center;

@@ -412,7 +412,7 @@ img {
  #spot {
     width: 700px;
     height: 700px;
-    background: url(../images/meet-up-spot-1.jpeg) center center / cover no-repeat fixed;
+    background: url(../images/meet-up-spot-1.jpeg) center center / cover repeat fixed;
     background-size: 100%;
     background-color: #151527;
     /*border: 1px solid white;*/

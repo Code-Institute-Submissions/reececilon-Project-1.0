@@ -287,7 +287,7 @@ footer {
 
 #social-links li {
     display: inline-block;
-    margin: 0 60px;
+    margin: 0 5%;
     font-size: 150%;
 }
 
@@ -468,15 +468,14 @@ img {
  }
 
  .submit-button {
-    background: url(../images/meet-up-spot-1.jpeg) center center / cover no-repeat fixed;
     color: white;
+    background-color: black;
     font-family: 'PT Sans', sans-serif;
-    border-radius: 15px;
     width: 100px;
     height: 50px;
     font-weight: 900;
     text-transform: uppercase;
-    /*border: 1px solid white;*/
+    border-bottom: 1px solid white;
  }
 
  .submit-button:hover {

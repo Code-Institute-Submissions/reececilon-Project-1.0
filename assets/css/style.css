@@ -214,11 +214,11 @@ h2 > span {
     height: 200px;
     /*background-color: rgba(72, 81, 98, 0.5);*/
     position: relative;
-    bottom: 33px;
+    bottom: 60px;
     /*color: #999CA1;*/
     color: white;
     text-align: center;
-    line-height: 50px;
+    line-height: 30px;
 }
 
 #reason-1 p {
@@ -267,7 +267,7 @@ div > h3 {
 .spot-1 {
     width: 300px;
     height: 300px;
-    background: url(../images/meet-up-spot-1.jpeg) center center / cover no-repeat fixed;
+    background: url(../images/meet-up-spot-1.jpeg) center center / cover repeat fixed;
     background-size: 100%;
     background-color: #151527;
     /*border: 1px solid white;*/
@@ -464,3 +464,15 @@ img:hover {
      transition: 1s;
  }
  
+/*for screens 1207px wide and down*/
+
+ @media screen and (max-width: 1207px) {
+    
+    #meet-up-space {
+        height: 700px;
+    }
+
+    .block {
+        margin: 20px;
+    }
+ }

@@ -502,11 +502,14 @@ img {
 
  @media screen and (max-width: 400px) {
 
-/* Meet up section */
+/* About section */
 
-    .spot-1 {
-        margin: 0;
+    #about {
+        padding: 0;
+        margin: 0 auto;
     }
+
+/* Reasons section */
 
     #main-image {
 
@@ -524,6 +527,12 @@ img {
 
     .reason-left {
         padding: 10px 0;
+    }
+
+    /* Meet up section */
+
+    .spot-1 {
+        margin: 0;
     }
 
  }

@@ -532,10 +532,6 @@ img {
 
  @media screen and (max-width: 450px) {
 
-    #main-image {
-        height: 950px;
-    }
-
     /* gallery */
 
     .cell {
@@ -544,4 +540,5 @@ img {
     }
 
  }
+
 

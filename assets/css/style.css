@@ -120,7 +120,7 @@ header {
     line-height: 30px;
 }
 
-/*Benefits of stargazing*/
+/*reasons to stargaze*/
 
 #reasons {
     background-color: black;
@@ -133,7 +133,7 @@ header {
     width: 90%;
     margin: 0 auto;
     border-radius: 15px;
-    height: 600px;
+    min-height: 600px;
 }
 
 #main-image > h2 {
@@ -150,49 +150,27 @@ header {
     padding-top: 30px;
     width: 50%;
     float: left;
+    color: white;
 }
 
 #right {
     padding-top: 30px;
     width: 50%;
     float: right;
-}
-
-/*bug: couldn't properly position reasons. fixed with relative positioning*/
-
-#reasons-space {
-    width: 100%;
-    min-height: 500px;
-    text-align: center;
     color: white;
 }
 
-.column {
-    display: inline-block;
-    width: 40%;
-    margin: 0 30px;
-}
-
-.second {
-    position: relative;
-    bottom: 54px;
-}
-
 .reason {
-    width: 400px;
-    height: 150px;
-    text-align: center;
-    padding: 50px 0;
-    margin: 0 auto;
+    width: 80%;
 }
 
-#reason p {
-    font-family: 'PT Sans', sans-serif;
-    line-height: 30px;
-}
-
-div > h3 {
+.reason > h3 {
     border-bottom: 1px solid white;
+}
+
+.reason > h3, .reason > p {
+    background-color: rgba(21, 21, 39, 0.6);
+    padding: 5px;
 }
 
 /*Meet up section*/

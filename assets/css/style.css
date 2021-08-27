@@ -148,71 +148,33 @@ header {
 
 /*bug: couldn't properly position reasons. fixed with relative positioning*/
 
-.block {
-    display: inline-block;
-    margin: 50px;
-}
-
 #reasons-space {
-    width: 100%px;
-    height: 100%;
+    width: 100%;
+    min-height: 500px;
     text-align: center;
+    color: white;
 }
 
-#reason-1 {
-    width: 400px;
-    height: 200px;
-    /*background-color: rgba(72, 81, 98, 0.5);*/
+.column {
+    display: inline-block;
+    width: 40%;
+    margin: 0 30px;
+}
+
+.second {
     position: relative;
-    color: white;
-    text-align: center;
-    line-height: 50px;
+    bottom: 54px;
 }
 
-#reason-2 {
+.reason {
     width: 400px;
-    height: 200px;
-    /*background-color: rgba(72, 81, 98, 0.5);*/
-    position: relative;
-    top: 30px;
-    color: white;
+    height: 150px;
     text-align: center;
-    line-height: 50px;
-}
-/*Don't forget to fix the positioning*/
-#reason-3 {
-    width: 400px;
-    height: 200px;
-    /*background-color: rgba(72, 81, 98, 0.5);*/
-    position:relative;
-    color: white;
-    text-align: center;
-    line-height: 50px;
+    padding: 50px 0;
+    margin: 0 auto;
 }
 
-#reason-4 {
-    width: 400px;
-    height: 200px;
-    /*background-color: rgba(72, 81, 98, 0.5);*/
-    position: relative;
-    bottom: 60px;
-    /*color: #999CA1;*/
-    color: white;
-    text-align: center;
-    line-height: 30px;
-}
-
-#reason-1 p {
-    font-family: 'PT Sans', sans-serif;
-    line-height: 30px;
-}
-
-#reason-2 p {
-    font-family: 'PT Sans', sans-serif;
-    line-height: 30px;
-}
-
-#reason-3 p {
+#reason p {
     font-family: 'PT Sans', sans-serif;
     line-height: 30px;
 }

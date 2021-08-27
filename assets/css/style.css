@@ -508,5 +508,23 @@ img {
         margin: 0;
     }
 
+    #main-image {
+
+        height: 950px
+
+    }
+
+    #right {
+        padding: 0;
+    }
+
+    .reason-right {
+        padding: 10px 0;
+    }
+
+    .reason-left {
+        padding: 10px 0;
+    }
+
  }
 

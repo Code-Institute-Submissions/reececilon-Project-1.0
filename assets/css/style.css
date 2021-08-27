@@ -460,7 +460,7 @@ img {
     /* Reasons secrion */
     
     #main-image {
-        height: 1000px;
+        height: 900px;
     }
 
     #left {
@@ -480,3 +480,33 @@ img {
     }
 
  }
+
+ /* for smaller screen sizes */
+
+ @media screen and (max-width: 1000px) {
+     
+    #main-image {
+        height: 1000px;
+     }
+ }
+
+ @media screen and (max-width: 600px) {
+
+    #main-image {
+        height: 1050px;
+    }
+
+ }
+
+/* for smaller phone widths */
+
+ @media screen and (max-width: 400px) {
+
+/* Meet up section */
+
+    .spot-1 {
+        margin: 0;
+    }
+
+ }
+

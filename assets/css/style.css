@@ -463,20 +463,17 @@ img {
         height: 1000px;
     }
 
-    #left {
-        float: left;
-        clear: both;
-        width: 60%;
-    }
-
-    #right {
+    #right, #left {
         float: right;
         clear: both;
-        width: 60%;
+        width: 100%;
+        padding: 0;
+
     }
 
     .reason-right, .reason-left {
-        width: 100%;
+        margin: 0 auto;
+
     }
 
  }
@@ -508,31 +505,17 @@ img {
 
 /* Reasons section */
 
-    #main-image {
+.reason-left, .reason-right {
+    width: 100%;
+}
 
-        height: 1000px
-
-    }
-
-    #right {
-        padding: 0;
-    }
-
-    .reason-right {
-        padding: 20px 0;
-    }
-
-    .reason-left {
-        padding: 20px 0;
-    }
-
-    /* Meet up section */
+/* Meet up section */
 
     .spot-1 {
         margin: 0;
     }
 
-    /*Signup section*/
+/*Signup section*/
 
     #spot {
         width: 100%;
@@ -553,15 +536,13 @@ img {
  @media screen and (max-width: 450px) {
 
 
-    /*reasons section*/
+/*reasons section*/
 
     #main-image {
-
-        height: 1300px
-
+        height: 1100px;
     }
 
-    /* gallery */
+/* gallery */
 
     .cell {
         width: 250px;
@@ -572,7 +553,7 @@ img {
 
  @media screen and (max-width: 400px) {
 
-    /* gallery */
+/* gallery */
 
     #photos {
         padding: 20px;

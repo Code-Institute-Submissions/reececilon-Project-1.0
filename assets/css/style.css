@@ -128,12 +128,12 @@ header {
 
 #main-image {
     background: url(../images/reason-background.jpeg) center bottom / cover no-repeat;
-    margin: 0;
     background-color: #151527;
     padding-top: 50px;
     width: 90%;
     margin: 0 auto;
     border-radius: 15px;
+    height: 600px;
 }
 
 #main-image > h2 {
@@ -144,6 +144,18 @@ header {
     text-align: center;
     display: block;
     padding-bottom: 30px;
+}
+
+#left {
+    padding-top: 30px;
+    width: 50%;
+    float: left;
+}
+
+#right {
+    padding-top: 30px;
+    width: 50%;
+    float: right;
 }
 
 /*bug: couldn't properly position reasons. fixed with relative positioning*/

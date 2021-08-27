@@ -481,26 +481,23 @@ img {
 
  }
 
- /* for smaller screen sizes */
+/* for smaller tablet widths */
 
- @media screen and (max-width: 1000px) {
-     
-    #main-image {
-        height: 1000px;
-     }
- }
+ @media screen and (max-width: 700px) {
 
- @media screen and (max-width: 600px) {
+/* Navigation bar */
 
-    #main-image {
-        height: 1050px;
+    header {
+        height: 150px;
     }
+    
+    #nav-menu {
+        float: left;
+        padding-top: 70px;
+        padding-left: 20px;
+        text-align: center;
 
- }
-
-/* for smaller phone widths */
-
- @media screen and (max-width: 400px) {
+    }
 
 /* About section */
 
@@ -513,7 +510,7 @@ img {
 
     #main-image {
 
-        height: 950px
+        height: 1100px
 
     }
 
@@ -522,17 +519,32 @@ img {
     }
 
     .reason-right {
-        padding: 10px 0;
+        padding: 20px 0;
     }
 
     .reason-left {
-        padding: 10px 0;
+        padding: 20px 0;
     }
 
     /* Meet up section */
 
     .spot-1 {
         margin: 0;
+    }
+
+ }
+
+ @media screen and (max-width: 450px) {
+
+    #main-image {
+        height: 950px;
+    }
+
+    /* gallery */
+
+    .cell {
+        width: 250px;
+        height: 250px;
     }
 
  }

@@ -86,7 +86,7 @@ header {
 }
 
 #new-main-image {
-    background: url(../images/maybe.jpeg) center center / cover no-repeat;
+    background: url(../images/maybe-s.jpeg) center center / cover no-repeat;
     /*bug: had issue with image resizing due to background size property 100%*/
     height: 100%;
     background-color: #000000;
@@ -123,7 +123,7 @@ header {
 }
 
 #main-image {
-    background: url(../images/reason-background.jpeg) center bottom / cover no-repeat;
+    background: url(../images/background-reasons-s.jpeg) center bottom / cover no-repeat;
     background-color: #151527;
     padding-top: 50px;
     width: 90%;
@@ -176,6 +176,11 @@ header {
 
 .reason-left > h3, .reason-right > h3 {
     border-bottom: 1px solid #ffffff;
+    font-family: 'PT Serif', serif;
+}
+
+.reason-left > p, .reason-right > p {
+    font-family: 'PT Sans', sans-serif;
 }
 
 .reason-left > h3, .reason-right > h3, .reason-left > p, .reason-right > p {
@@ -206,7 +211,7 @@ header {
 .spot-1 {
     width: 300px;
     height: 300px;
-    background: url(../images/meet-up-spot-1.jpeg) center center / cover repeat fixed;
+    background: url(../images/meet-spot-s.jpeg) center center / cover repeat fixed;
     background-size: 100%;
     background-color: #151527;
     /*border: 1px solid white;*/
@@ -240,7 +245,6 @@ footer {
     height: 90px;
     background-color: #151527;
     text-align: center;
-    vertical-align: auto;
 }
 
 #social-links {
@@ -285,51 +289,51 @@ footer {
 }
 
 #photo-1 {
-    background: url(../images/galaxy.jpeg) center center / cover no-repeat;
+    background: url(../images/galaxy-s.jpeg) center center / cover no-repeat;
 }
 
 #photo-2 {
-    background: url(../images/meteor-2.jpeg) center center / cover no-repeat;
+    background: url(../images/meteor-2-s.jpeg) center center / cover no-repeat;
 }
 
 #photo-3 {
-    background: url(../images/moon-1.jpeg) center center / cover no-repeat;
+    background: url(../images/eclipse-s.jpeg) center center / cover no-repeat;
 }
 
 #photo-4 {
-    background: url(../images/nebula-1.jpeg) center center / cover no-repeat;
+    background: url(../images/nebula-1-s.jpeg) center center / cover no-repeat;
 }
 
 #photo-5 {
-    background: url(../images/moon-2.jpeg) center center / cover no-repeat;
+    background: url(../images/moon-2-s.jpeg) center center / cover no-repeat;
 }
 
 #photo-6 {
-    background: url(../images/nebula-2.jpeg) center center / cover no-repeat;
+    background: url(../images/nebula-2-s.jpeg) center center / cover no-repeat;
 }
 
 #photo-7 {
-    background: url(../images/moon-3.jpeg) center center / cover no-repeat;
+    background: url(../images/moon-3-s.jpeg) center center / cover no-repeat;
 }
 
 #photo-8 {
-    background: url(../images/nebula-3.jpeg) center center / cover no-repeat;
+    background: url(../images/nebula-3-s.jpeg) center center / cover no-repeat;
 }
 
 #photo-9 {
-    background: url(../images/starry.jpeg) center center / cover no-repeat;
+    background: url(../images/starry-s.jpeg) center center / cover no-repeat;
 }
 
 #photo-10 {
-    background: url(../images/stars-1.jpeg) center center / cover no-repeat;
+    background: url(../images/stars-1-s.jpeg) center center / cover no-repeat;
 }
 
 #photo-11 {
-    background: url(../images/stars-2.jpeg) center center / cover no-repeat;
+    background: url(../images/stars-2-s.jpeg) center center / cover no-repeat;
 }
 
 #photo-12 {
-    background: url(../images/sun-1.jpeg) center center / cover no-repeat;
+    background: url(../images/sun-s.jpeg) center center / cover no-repeat;
 }
 
 .black {
@@ -374,7 +378,7 @@ img {
  #spot {
     width: 700px;
     height: 700px;
-    background: url(../images/meet-up-spot-1.jpeg) center center / cover repeat fixed;
+    background: url(../images/meet-spot-s.jpeg) center center / cover repeat fixed;
     background-size: 100%;
     background-color: #151527;
     /*border: 1px solid white;*/
@@ -456,7 +460,7 @@ img {
     /* Reasons secrion */
     
     #main-image {
-        height: 900px;
+        height: 1000px;
     }
 
     #left {
@@ -506,7 +510,7 @@ img {
 
     #main-image {
 
-        height: 1100px
+        height: 1000px
 
     }
 
@@ -547,6 +551,15 @@ img {
  }
 
  @media screen and (max-width: 450px) {
+
+
+    /*reasons section*/
+
+    #main-image {
+
+        height: 1300px
+
+    }
 
     /* gallery */
 

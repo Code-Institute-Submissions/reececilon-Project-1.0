@@ -16,7 +16,7 @@
     top: 10px;
     left: 10px;
     background-color: #151527;
-    border: 1px solid white;
+    border: 1px solid #ffffff;
 }
 
 #ellipse {
@@ -36,7 +36,7 @@ header {
 
 #logo {
     text-decoration: none;
-    color: white;
+    color: #ffffff;
     letter-spacing: 5px;
     text-transform: uppercase;
     font-size: 90%;
@@ -62,17 +62,13 @@ header {
 #nav-menu a {
     text-decoration: none;
     /*color: #999CA1;*/
-    color: white;
+    color: #ffffff;
     font-size: 110%;
 }
 
 #nav-menu li:hover {
     transform: scale(1.2);
     transition: transform 1s;
-}
-/*bug 1: li would not change colour when hovering over them. fixed issue below*/
-#nav-menu li:hover a {
-    color: white;
 }
 
 .active {
@@ -86,20 +82,20 @@ header {
 
 #about-section {
     padding-bottom: 20px;
-    background-color: black;
+    background-color: #000000;
 }
 
 #new-main-image {
     background: url(../images/maybe.jpeg) center center / cover no-repeat;
     /*bug: had issue with image resizing due to background size property 100%*/
     height: 100%;
-    background-color: black;
+    background-color: #000000;
 }
 
 #about {
     height: 400px;
     width: 200px;
-    color: white;
+    color: #ffffff;
     padding-left: 30%;
     background-color: rgba(0, 0, 0, 0.5);
 }
@@ -123,7 +119,7 @@ header {
 /*reasons to stargaze*/
 
 #reasons {
-    background-color: black;
+    background-color: #000000;
 }
 
 #main-image {
@@ -139,7 +135,7 @@ header {
 #main-image > h2 {
     font-family: 'PT Serif', serif;
     font-size: 180%;
-    color: white;
+    color: #ffffff;
     letter-spacing: 5px;
     text-align: center;
     display: block;
@@ -150,14 +146,14 @@ header {
     padding-top: 30px;
     width: 50%;
     float: left;
-    color: white;
+    color: #ffffff;
 }
 
 #right {
     padding-top: 30px;
     width: 50%;
     float: right;
-    color: white;
+    color: #ffffff;
 }
 
 .reason-left {
@@ -179,7 +175,7 @@ header {
 }
 
 .reason-left > h3, .reason-right > h3 {
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid #ffffff;
 }
 
 .reason-left > h3, .reason-right > h3, .reason-left > p, .reason-right > p {
@@ -191,7 +187,7 @@ header {
 
 #meet-up-space {
     height: 100%;
-    background-color: black;
+    background-color: #000000;
     text-align: center;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -200,7 +196,7 @@ header {
 #meet-up-space > h2 {
     font-family: 'PT Serif', serif;
     font-size: 180%;
-    color: white;
+    color: #ffffff;
     letter-spacing: 5px;
     text-align: center;
     display: block;
@@ -227,7 +223,7 @@ header {
     top: 50px;
     left: 50px;
     border-radius: 50%;
-    background-color: black;
+    background-color: #000000;
 }
 
 .inner-circle-1 > p {
@@ -235,7 +231,7 @@ header {
     position: relative;
     top: 50px;
     font-family: 'PT Sans', sans-serif;
-    color: white;
+    color: #ffffff;
 }
 
 /*footer section social links*/
@@ -259,14 +255,14 @@ footer {
 
 #social-links a {
     text-decoration: none;
-    color: white;
+    color: #ffffff;
 }
 
 /*gallery page*/
 
 #photos {
     padding: 50px;
-    background-color: black;
+    background-color: #000000;
 }
 
 .container {
@@ -281,7 +277,7 @@ footer {
     margin:40px 60px;
     cursor:pointer;
     display:inline-block;
-    color:#FFF;
+    color:#ffffff;
     font-size:2em;
     border-radius:4px;
     transition: all 0.3s linear;
@@ -337,14 +333,14 @@ footer {
 }
 
 .black {
-    background-color: black;
+    background-color: #000000;
     width: 100%;
 	margin: 0px 0px;
 	padding: 0px;
 }
 
 .cell {
-    background-color: black;
+    background-color: #000000;
 	padding: 10px 10px 10px 10px;
 	margin: 0;
 	width: 300px;
@@ -370,7 +366,7 @@ img {
      height: 900px;
      /*background: url(../images/main-image.jpeg) center center / cover no-repeat;
      background-size: 100%;*/
-     background-color: black;
+     background-color: #000000;
      width: 100%;
      text-align: center;
  }
@@ -395,11 +391,11 @@ img {
     top: 50px;
     left: 50px;
     border-radius: 50%;
-    background-color: black;
+    background-color: #000000;
  }
 
  #sign-up {
-     background-color: black;
+     background-color: #000000;
      border-radius: 50%;
      width: 600px;
      height: 600px;
@@ -408,7 +404,7 @@ img {
  }
 
  #sign-up h2 {
-     color: white;
+     color: #ffffff;
      font-family: 'PT Serif', serif;
      position: relative;
      top: 100px;
@@ -416,7 +412,7 @@ img {
 
  #sign-up label {
 
-     color: white;
+     color: #ffffff;
      font-family: 'PT Sans', sans-serif;
  }
 
@@ -427,21 +423,21 @@ img {
 
  .text-input {
      margin: 30px;
-     border-bottom: 1px solid white;
+     border-bottom: 1px solid #ffffff;
      padding-bottom: 5px;
      background-color: black;
-     color: white;
+     color: #ffffff;
  }
 
  .submit-button {
-    color: white;
-    background-color: black;
+    color: #ffffff;
+    background-color: #000000;
     font-family: 'PT Sans', sans-serif;
     width: 100px;
     height: 50px;
     font-weight: 900;
     text-transform: uppercase;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid #ffffff;
  }
 
  .submit-button:hover {

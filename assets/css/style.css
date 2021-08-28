@@ -576,12 +576,12 @@ img {
 
     #spot {
         width: 100%;
-        border-radius: 20%;
+        border-radius: 15px;
     }
 
     #inner-circle {
         width: 90%;
-        border-radius: 20%;
+        border-radius: 15px;
         position: unset;
         margin: 50px auto;
     }

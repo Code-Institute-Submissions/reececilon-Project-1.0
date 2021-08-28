@@ -518,12 +518,12 @@ img {
 
     #spot {
         width: 100%;
-        border-radius: 30%;
+        border-radius: 0%;
     }
 
     #inner-circle {
-        width: 90%;
-        border-radius: 30%;
+        width: 100%;
+        border-radius: 0%;
         position: unset;
         margin: 50px auto;
     }
@@ -546,20 +546,6 @@ img {
     .cell {
         width: 250px;
         height: 250px;
-    }
-
-    /*Signup section*/
-
-    #spot {
-        width: 100%;
-        border-radius: 0%;
-    }
-
-    #inner-circle {
-        width: 100%;
-        border-radius: 0%;
-        position: unset;
-        margin: 50px auto;
     }
 
  }

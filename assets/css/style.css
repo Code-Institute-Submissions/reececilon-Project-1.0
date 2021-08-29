@@ -85,7 +85,7 @@ header {
 }
 
 #main-image {
-    background: url(../images/maybe-s.jpeg) center center / cover no-repeat;
+    background: url(../images/halfmoon-s.jpeg) center center / cover no-repeat;
     /*bug: had issue with image resizing due to background size property 100%*/
     height: 100%;
     background-color: #000000;

@@ -47,10 +47,19 @@ Stargazing is a site that aims to inspire people to get out into nature and gaze
 \
 <img src="assets/images/footer.png" alt="Image of the footer containing links to stargazing social media">
 
-- The Gallery
+- The Gallery 
     - This page will further inspire the user by showing images of what can be seen when stargazing at night.
     - From this page the user will be able to observe what might be seen when stargazing, and the kind of astronomical events that might occur.
     - To relate back to the theme of this site, the images also scale in size when hovered over. This also allows the user to view the images more clearly.
 \
 \
 <img src="assets/images/gallery.png" alt="Image of the gallery section and the photos that can be seen in this section">
+
+- The Sign up page
+    - This page allows the user to sign up with Stargazing to realise their new found hobby to look up at the stars.
+    - The user is required to input their full name and email to sign up to Stargazing.
+    - The sign up form is contained within another circle that resembles looking at the sky through a telescope. the starry background also moves as the user scrolls down the page, continuing the theme of this site.
+\
+\
+<img src="assets/images/signuppage.png" alt="Image of the sign up form">
+ 

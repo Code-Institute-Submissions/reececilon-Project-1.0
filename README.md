@@ -4,3 +4,7 @@ Stargazing is a site that aims to inspire people to get out into nature and gaze
 \
 \
 <img src="assets/images/stargazing.png" alt="Image of website for different devices with different screen sizes.">
+\
+
+# Features
+

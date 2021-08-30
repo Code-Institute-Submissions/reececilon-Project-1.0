@@ -15,5 +15,17 @@ Stargazing is a site that aims to inspire people to get out into nature and gaze
     - This section allows for easy navition of the site without the use of the back button, whilst maintaining the stargazing theme.
 \
 \
-<img src="assets/images/navbar.png">
+<img src="assets/images/navbar.png" alt="Image of the website navigation bar containing the logo and links to other pages.">
 
+- Landing page/ About section
+    - This section has an background image and an text overlay to give a description of who the site is for and the requirements for stargazing.
+    - This section has an image of a half moon with a white text overlay on the other side of the moon for a interesting design to draw in the audience's attention.
+\
+\
+<img src="assets/images/about.png" alt="Image of about section, with half moon background and text overlay describing website purpose"> 
+
+- Reasons Section
+    - This section is intended to highlight the benefits of getting out and looking at the stars, and how it could benefit mental health and be used as a social activity that gets the user out into nature.
+    - This section aims to get the user to see the benefits of signing up with Stargazing and making stargazing a fun hobby, as well as a way to take care of their mental health.
+    - This section also features a background image of a telescope with the purpose of giving inspiration to the user and demonstrating what might be used to stargaze.
+<img src="assets/images/reasonsim.png" alt="Image of reasons section with text overlay highlighting benefits of stargazing">

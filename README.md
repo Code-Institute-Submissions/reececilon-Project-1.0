@@ -28,4 +28,22 @@ Stargazing is a site that aims to inspire people to get out into nature and gaze
     - This section is intended to highlight the benefits of getting out and looking at the stars, and how it could benefit mental health and be used as a social activity that gets the user out into nature.
     - This section aims to get the user to see the benefits of signing up with Stargazing and making stargazing a fun hobby, as well as a way to take care of their mental health.
     - This section also features a background image of a telescope with the purpose of giving inspiration to the user and demonstrating what might be used to stargaze.
+\
+\
 <img src="assets/images/reasonsim.png" alt="Image of reasons section with text overlay highlighting benefits of stargazing">
+
+- Best Spots Section
+    - This section's purpose is to inform the user of the best places, time of year, and time of day to stargaze. 
+    - The design for this section fits the theme of stargazing. The circular frames that hold the meet up information give the appearance of moving stars as the users scrolls through down the site. This is to resemble looking up at the night sky through a telescope.
+    - This is done to give inspiration and excitement to the user, to motivate the user to signup to the stargazing club.
+\
+\
+<img src="assets/images/bestspots.png" alt="Image of best spots section, showing best places and times to go stargazing">
+
+- The Footer
+    - This section holds links to the Stargazing social media that open up on a new page without the user having to leave the Stargazing site. 
+    - This section enables the user to stay connected via social media.
+\
+\
+<img src="assets/images/footer.png" alt="Image of the footer containing links to stargazing social media">
+ 

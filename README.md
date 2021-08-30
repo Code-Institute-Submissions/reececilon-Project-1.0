@@ -46,4 +46,11 @@ Stargazing is a site that aims to inspire people to get out into nature and gaze
 \
 \
 <img src="assets/images/footer.png" alt="Image of the footer containing links to stargazing social media">
- 
+
+- The Gallery
+    - This page will further inspire the user by showing images of what can be seen when stargazing at night.
+    - From this page the user will be able to observe what might be seen when stargazing, and the kind of astronomical events that might occur.
+    - To relate back to the theme of this site, the images also scale in size when hovered over. This also allows the user to view the images more clearly.
+\
+\
+<img src="assets/images/gallery.png" alt="Image of the gallery section and the photos that can be seen in this section">

@@ -89,7 +89,7 @@ I also tested the site over varying screen widths (320px - 1500px) using devtool
 HTML - [W3C HTML Validator](https://validator.w3.org/nu/#textarea)
 - I confirm no errors were found when running through the official W3C HTML validator.
 
-CSS - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator)
+CSS - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
 - I confirm that no errors were returned when running through the official W3C (jigsaw) CSS validator.
 
 Accessibility - Devtools lighthouse
@@ -98,3 +98,16 @@ Accessibility - Devtools lighthouse
 <img src="assets/images/lighthouse.png" alt="Image of lighthouse score for Stargazing site" width="650px" height="300px">
 
 - Lighthouse was run for the other pages of this site, but were not included as only the score on the performance varied by approximately 2% for the gallery and sign up pages.
+
+## Unfixed Bugs
+- No unfixed bugs
+
+# Deployment
+This site was deployed on GitHub Pages. The steps to deploy the site are shown below:
+- In the GitHub repository for the project, locate the settings tab,
+- From the menu left of this, select the pages tab,
+- Under the source section, select the main branch from the drop down menu and save,
+- A live link will then be provided for the website.
+\
+\
+The link for this project can be found here - [Stargazing](https://reececilon.github.io/Project-1.0/)

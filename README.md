@@ -87,5 +87,14 @@ I also tested the site over varying screen widths (320px - 1500px) using devtool
 
 ## Validator Testing
 HTML - [W3C HTML Validator](https://validator.w3.org/nu/#textarea)
+- I confirm no errors were found when running through the official W3C HTML validator.
 
 CSS - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator)
+- I confirm that no errors were returned when running through the official W3C (jigsaw) CSS validator.
+
+Accessibility - Devtools lighthouse
+- I confirm that the colors, fonts and backgrounds make the site easy to read and accessible by running lighthouse in Devtools to ensure a high accessibility score, as shown for the home page below.
+
+<img src="assets/images/lighthouse.png" alt="Image of lighthouse score for Stargazing site" width="650px" height="300px">
+
+- Lighthouse was run for the other pages of this site, but were not included as only the score on the performance varied by approximately 2% for the gallery and sign up pages.

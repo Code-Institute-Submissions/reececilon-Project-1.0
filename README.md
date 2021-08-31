@@ -79,4 +79,13 @@ I also tested the site over varying screen widths (320px - 1500px) using devtool
 
 ## Bugs
 1. Within the Best Spots section, a background image was used to encircle the meet up information. Due to image sizing issues, the background image appeared blurred. Using the CSS property **Background-size** and setting the value to **100%**, the image appeared clear and undistorted. 
-2. 
+2. The gallery page used images with different aspect ratios, because of this, it was difficult making all the images the same width and height without distorting the aspect ratio of the photos. Some images looked compressed or stretched. I fixed this by making each image of the gallery a background image of an individual cell of the CSS grid container and setting the background to **cover**.
+3. Because I used background image for the images of the gallery, the **alt** tag was unable to be added. Those using a screen reader would not know what each image was, due to this. To fix this problem, I set the **role** property of each cell in the container div to **img** and then added an **aria-label** to give each div cell a description, as seen below.
+\
+\
+<img src="assets/images/cells.png" alt="Image of code used for image in gallery page.">
+
+## Validator Testing
+HTML - [W3C HTML Validator](https://validator.w3.org/nu/#textarea)
+
+CSS - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator)

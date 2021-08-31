@@ -111,3 +111,12 @@ This site was deployed on GitHub Pages. The steps to deploy the site are shown b
 \
 \
 The link for this project can be found here - [Stargazing](https://reececilon.github.io/Project-1.0/)
+
+# Credits
+## Content
+- The font icons in the footer section for the social media links were taken from [FontAwesome](https://fontawesome.com/).
+- some information contained within the reasons section of this site was inspired by [Astronomy Clubs](http://www.astronomyclubs.co.uk/observing-the-night-sky)
+- Some of the information for the reasons section of this site was inspired by [National Trust](https://www.nationaltrust.org.uk/lists/stargazing-in-london-and-the-south-east)
+
+## Media
+- The images on this site were taken from [Pexels](https://www.pexels.com/)

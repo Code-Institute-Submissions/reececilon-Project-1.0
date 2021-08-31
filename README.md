@@ -103,6 +103,7 @@ I also tested the site over varying screen widths (320px - 1500px) using devtool
 ## Validator Testing
 HTML - [W3C HTML Validator](https://validator.w3.org/nu/#textarea)
 - I confirm no errors were found when running through the official W3C HTML validator.
+- For the Gallery page there was a warning that no header was added to this section. Due to design, I did not add a h2 element to this section as it did not agree with the style of the page.
 
 CSS - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
 - I confirm that no errors were returned when running through the official W3C (jigsaw) CSS validator.

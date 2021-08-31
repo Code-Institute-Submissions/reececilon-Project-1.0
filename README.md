@@ -62,4 +62,21 @@ Stargazing is a site that aims to inspire people to get out into nature and gaze
 \
 \
 <img src="assets/images/signuppage.png" alt="Image of the sign up form">
- 
+
+## Features Left to Implement
+
+- Another feature that may be implemented to this site would be an Astronomical Events page. This page would have a calendar for upcoming astronomical events, giving a description of the event, the date that the event occurs, and the best time and place to observe it. This page will allow the user to plan for upcoming sitings and stargazing outings.
+
+
+
+# Testing
+
+## Manual Testing
+
+For manual testing I checked the Stargazing site accross various different browsers, such as: Google Chrome, FireFox, and Safari. I also checked that some features of this site were supported with other browsers using the sight [caniuse.com](https://caniuse.com/?search=css).
+
+I also tested the site over varying screen widths (320px - 1500px) using devtools, and manually tested the site myself with various different devices, e.g., MacBook and Iphones using Safari, and Samsung using Google Chrome. 
+
+## Bugs
+1. Within the Best Spots section, a background image was used to encircle the meet up information. Due to image sizing issues, the background image appeared blurred. Using the CSS property **Background-size** and setting the value to **100%**, the image appeared clear and undistorted. 
+2. 
